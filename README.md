@@ -7,154 +7,146 @@
 </p>
 
 <p align="center">
-  A colorful, animated, and fun Birthday Greeting Tool written in Python for your terminal!
-  <br />
+  A colorful, animated, and fun Birthday Greeting Tool written in Python for your terminal!<br>
   <strong>Celebrate someone’s special day, right from the command line. 🥳</strong>
 </p>
 
----
+<hr>
 
-## ✨ What is this?
+<h2>✨ What is this?</h2>
 
-The **Birthday CLI Tool** is a creative command-line program that displays animated ASCII art, colorful birthday wishes, and styled messages using Python. Perfect for tech lovers, coders, or just a fun surprise in your terminal!
+<p>
+The <strong>Birthday CLI Tool</strong> is a creative command-line Python script that displays animated ASCII art, colorful birthday wishes, and styled messages in your terminal. 
+Perfect for surprising your friends, sending terminal birthday wishes, or just having fun with code!
+</p>
 
----
+<hr>
 
-## 🎨 Features
+<h2>🎨 Features</h2>
+<ul>
+  <li>🎂 Beautiful ASCII Art (Cake, Heart, Bottle, Fireworks)</li>
+  <li>🌈 Colorful animated text with termcolor, pyfiglet, and rich</li>
+  <li>📅 Automatically displays today's date</li>
+  <li>🤖 Interactive CLI: just enter the name to start</li>
+  <li>🖥️ Works on Termux, Linux, macOS, Windows</li>
+</ul>
 
-- 🎂 Beautiful ASCII art: Heart 💖, Cake 🍰, Bottle 🍾, Fireworks 🎇
-- 🌈 Colorful animated text using `termcolor`, `pyfiglet`, and `rich`
-- 🗓️ Automatically shows today’s date
-- 📝 Styled birthday card using `rich.Panel`
-- 🖥️ Works in Termux, Linux, macOS, and Windows
-- 🤖 CLI interaction with name input and personalized messages
+<hr>
 
----
+<h2>🛠️ Requirements</h2>
 
-## 🛠️ Requirements
+<p>Install these Python libraries:</p>
 
-Install these Python libraries:
+<pre><code>pip install termcolor pyfiglet rich</code></pre>
 
-```bash
-pip install termcolor pyfiglet rich
+<p>Or use the provided requirements.txt:</p>
 
-Or use the provided requirements.txt:
+<pre><code>pip install -r requirements.txt</code></pre>
 
-pip install -r requirements.txt
+<hr>
 
+<h2>🚀 Installation & Run</h2>
 
----
+<h3>✅ On Termux (Android)</h3>
 
-🚀 Installation & Run
-
-✅ On Termux (Android)
-
-pkg update && pkg upgrade
+<pre><code>pkg update && pkg upgrade
 pkg install python git -y
 git clone https://github.com/ShellCrafter/birthday-cli.git
 cd birthday-cli
 pip install -r requirements.txt
 python birthday.py
+</code></pre>
 
----
+<h3>💻 On Linux / Ubuntu</h3>
 
-💻 On Linux / Ubuntu
-
-sudo apt update && sudo apt install python3 git -y
+<pre><code>sudo apt update && sudo apt install python3 git -y
 git clone https://github.com/ShellCrafter/birthday-cli.git
 cd birthday-cli
 pip3 install -r requirements.txt
 python3 birthday.py
+</code></pre>
 
----
+<h3>🍏 On macOS</h3>
 
-🍏 On macOS
-
-brew install python git
+<pre><code>brew install python git
 git clone https://github.com/ShellCrafter/birthday-cli.git
 cd birthday-cli
 pip3 install -r requirements.txt
 python3 birthday.py
+</code></pre>
 
----
+<h3>🪟 On Windows</h3>
 
-🪟 On Windows
+<ol>
+  <li>Install <a href="https://www.python.org/downloads/">Python</a> and <a href="https://git-scm.com/downloads">Git</a></li>
+  <li>Open Command Prompt and run:</li>
+</ol>
 
-1. Install Python and Git
-2. Open Command Prompt:
-
-git clone https://github.com/ShellCrafter/birthday-cli.git
+<pre><code>git clone https://github.com/ShellCrafter/birthday-cli.git
 cd birthday-cli
 pip install -r requirements.txt
 python birthday.py
+</code></pre>
 
----
+<hr>
 
-💡 Example Usage
+<h2>💡 Example Usage</h2>
 
-$ python birthday.py
+<pre><code>$ python birthday.py
 
 💖 Welcome to the Ultimate Birthday CLI Tool 💖
-
 🎈 What's your name? John
 
 # Outputs colorful name art, birthday wishes, ASCII animations, and a rich birthday card 🎉
+</code></pre>
 
----
+<hr>
 
-🧾 requirements.txt
+<h2>🧾 requirements.txt</h2>
 
-If needed, here’s the content:
+<p>Here’s the required libraries list:</p>
 
-termcolor
+<pre><code>termcolor
 pyfiglet
 rich
+</code></pre>
 
-You can generate it automatically:
+<p>Or generate it automatically with:</p>
 
-pip freeze > requirements.txt
+<pre><code>pip freeze > requirements.txt</code></pre>
 
----
+<hr>
 
-🧪 Ideal For
+<h2>🧪 Ideal For</h2>
 
-Terminal gift surprises 🎁
+<ul>
+  <li>🎁 Surprise terminal birthday gifts</li>
+  <li>🎂 Personalized CLI birthday wishes</li>
+  <li>👨‍💻 Python fun projects or practice</li>
+  <li>📱 Tech lovers using Termux or Linux</li>
+</ul>
 
-Personalized CLI greetings
+<hr>
 
-Python practice and fun projects
+<h2>🧠 Credits</h2>
 
-Termux or Linux utility lovers
+<p>Made with ❤️ by <a href="https://github.com/ShellCrafter">ShellCrafter</a></p>
 
+<hr>
 
+<h2>📄 License</h2>
 
----
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
-🧠 Credits
+<hr>
 
-Made with ❤️ by ShellCrafter
+<h2>⭐ Support</h2>
 
+<ul>
+  <li>⭐ Star the repository</li>
+  <li>📹 Create a YouTube demo and tag the repo</li>
+  <li>✅ Share it with others</li>
+  <li>💬 Suggest improvements via issues</li>
+</ul>
 
----
-
-📄 License
-
-This project is licensed under the MIT License.
-
-
----
-
-⭐ Support
-
-If you like this project:
-
-⭐ Star the repository
-
-✅ Share it with friends
-
-📹 Record a YouTube video demo (tag this repo!)
-
-📧 Submit suggestions or improvements!
-
-
-Happy Coding & Celebrating! 🎈🎂🥳
+<p><strong>🎈 Happy Coding & Celebrating! 🎂🎉</strong></p>
